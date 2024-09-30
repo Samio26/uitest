@@ -29,7 +29,7 @@ class _MainScreenState extends State<MainScreen> {
       if (_currentIndex < 3) {
         _currentIndex++;
       } else {
-        _currentIndex = 0; 
+        _currentIndex =0; 
       }
       _pageController.animateToPage(
         _currentIndex,
